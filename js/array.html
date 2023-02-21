@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>array js</title>
+    <script>
+        var colores = ["amarillo","verde","azul","rojo","gris"];
+        var colores2 = ["naranja","aqua","chicle","carmesi","plata"];
+        // juntar arreglos concatenar
+        var coloresTotales = colores.concat(colores2);
+
+        // colores[5] = "negro";
+        // colores[6] = "blanco";
+
+        // var longitudArreglo = colores.length;
+        // colores[longitudArreglo] = "purpura";
+        // agregar al final del arreglo
+        colores.push("rosa","cafe","magenta");
+        // eliminar el final del agrego
+        colores.pop();
+        //cambiar separacion del arreglo
+        var arregloNuevo = coloresTotales.join(" - ");
+        //ordenar arreglo
+        var arregloOrdenado = coloresTotales.sort();
+        document.write(arregloOrdenado);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
