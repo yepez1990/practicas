@@ -10,64 +10,75 @@
 </head>
 
 <body>
-    <div class="container-form">
-        <div class="info-form">
-            <p>Cliente</p>
-            <input type="text" placeholder="nombre cliente">
-            <p>provedor</p>
-            <select>
-                <option disabled selected>tipo proveedor</option>
-                <option value="value1">nivel 1</option>
-                <option value="value2">nivel 2</option>
-                <option value="value3">nivel 3</option>
-            </select>
-            <p>recurso</p>
-            <select>
-                <option disabled selected>tipo recurso</option>
-                <option value="value1">clase a</option>
-                <option value="value2">clase b</option>
-                <option value="value3">clase c</option>
-            </select>
-            <br>
-            <br>
-            <input type="text" placeholder="porcentaje">
-        </div>
-        <div class="info-form">
-            <br>
-            <br>
-            <br>
-            <div>
-                <input id="default-btn" type="file" hidden>
-                <button onclick="defaulBtnActive()" id="custom-btn" class="button">añadir imagen</button>
-            </div>
-            <br>
-            <input type="text" placeholder="rfc">
-            <br>
-            <br>
-            <div>
-                <a href="#" class="cta">añadir recurso</a>
-            </div>
-            <div class="modal-container">
-                <div class="modal modal-close">
-                    <p class="close">
-                        X
-                    </p>
-                    <img src="../html/archivos/ejemplo.png" alt="">
-                    <div class="modal-textos">
-                        <h2>
-                            ventana modal
-                        </h2>
-                        <p>
-                            practica 2 yepez
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <script src="main.js"></script>            
-        </div>
+    <div class="divPadre">
+        <div class="divHijo">COTIZADOR</div>
     </div>
+    <form>
+        <div class="container-form">
+            <div class="info-form">
+                <p>Cliente</p>
+                <input type="text" placeholder="nombre cliente" required>
+                <p>provedor</p>
+                <select>
+                    <option disabled selected>tipo proveedor</option>
+                    <option value="value1">nivel 1</option>
+                    <option value="value2">nivel 2</option>
+                    <option value="value3">nivel 3</option>
+                </select>
+                <p>recurso</p>
+                <select>
+                    <option disabled selected>tipo recurso</option>
+                    <option value="value1">clase a</option>
+                    <option value="value2">clase b</option>
+                    <option value="value3">clase c</option>
+                </select>
+                <br>
+                <br>
+                <input type="text" placeholder="porcentaje" required>
+            </div>
+            <div class="info-form">
+                <br>
+                <br>
+                <br>
+                <div>
+                    <input id="default-btn" type="file" hidden>
+                    <button onclick="defaulBtnActive()" id="custom-btn" class="button">añadir imagen</button>
+                </div>
+                <br>
+                <input type="text" placeholder="rfc" required>
+                <br>
+                <br>
+                <div>
+                    <a href="#" class="cta">añadir recurso</a>
+                </div>
+                <div class="modal-container">
+                    <div class="modal modal-close">
+                        <p class="close">
+                            X
+                        </p>
+                        <img src="../html/archivos/ejemplo.png" alt="">
+                        <div class="modal-textos">
+                            <h2>
+                                ventana modal
+                            </h2>
+                            <p>
+                                practica 2 yepez
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <script src="main.js"></script>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="divPadre">
+            <div class="divHijo">
+                <input class="submit" type="submit" value="GESTIONAR PROPUESTA">
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>

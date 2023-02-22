@@ -1,4 +1,16 @@
 
+.divPadre {
+    height:50px;
+    width:100%;
+     text-align:center;
+}
+
+.divHijo {
+    height:30px;
+    width:400px;
+     margin:0px auto;
+}
+
 .container-form{
     width: 100%;
     max-width: 1100px;
@@ -6,7 +18,12 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
-    margin-top: 90px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.container-items{
+    width: 100%;
 }
 
 .button {
@@ -26,6 +43,16 @@
     text-align: center;
     text-decoration: none;
     color:black;
+}
+
+.submit{
+    display: inline-block;
+    padding: 7px 0;
+    width: 180px;
+    background: blueviolet;
+    text-align: center;
+    text-decoration: none;
+    color:white;
 }
 
 .modal-container{
