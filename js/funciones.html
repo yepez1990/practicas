@@ -11,9 +11,25 @@
 <body>
     <script>
         function resta(valor1, valor2) {
-            return(valor1 - valor2);
+            return (valor1 - valor2);
         };
-        document.write(resta(50, 30));
+
+        var variableGlobal = "hola mundo";
+
+        var valorMinimo = function (valor1, valor2) {
+            var variableLocal
+            if (valor1 < valor2) {
+                return valor1;
+            } else {
+                return valor2
+            }
+        }
+
+        document.write(valorMinimo(50, 30));
+        document.write("<br>");
+        document.write(valorMinimo(10, 30));
+        document.write("<br>");
+        document.write(valorMinimo(80, 70));
     </script>
 </body>
 
