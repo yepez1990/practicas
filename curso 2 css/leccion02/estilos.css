@@ -1,0 +1,41 @@
+ h1 {
+    text-align: center;
+ }
+
+ .rojo {
+    /*tipos de borde solid, dashed, double, dotted */
+    border: 1px solid firebrick;
+    /*background-color: firebrick;*/
+ }
+
+ /*border normal*/
+ .borde-dashed {
+    border-style: dashed;
+ }
+
+ /*ejemplo dar ancho a cada lado del borde*/
+ .borde2 {
+    border: solid red;
+    border-width: 1px 20px 30px 8px;
+    border-color: blue red green pink;
+ }
+
+ /*ejemplo de como dar redondeo a un borde*/
+ .borde3 {
+   border: solid blue;
+   border-width: 10px;
+   border-radius: 15px;
+ }
+
+/*ejemplos de fondo*/
+ .rosa {
+    background-color: hotpink;
+ }
+
+ .amarillo {
+    background-color: gold;
+ }
+
+ .azul {
+    background-color: turquoise;
+ }

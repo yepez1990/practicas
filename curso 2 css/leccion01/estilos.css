@@ -1,0 +1,32 @@
+
+/*estilos globales*/
+*{
+    background-color:black;
+}
+
+/*estilos por id*/
+#titulo {
+    color: orange;
+    text-align: center;
+}
+
+/*estilos clases*/
+.centrar {
+    text-align: center;
+}
+
+.texto_grande{
+    font-size: 20px;
+}
+
+/*por etiqueta de html*/
+h1, h2 , p{
+    color: blue;
+    text-align: center;
+}
+
+/*por sub clase */
+p.centrar{
+    color: white;
+    text-align: center;
+}
